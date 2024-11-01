@@ -16,5 +16,13 @@
         <file>res/bg.wav</file>
         <file>res/heart.png</file>
         <file>res/hit.wav</file>
+        <file>res/eb1.png</file>
+        <file>res/pe1.png</file>
+        <file>res/pe2.png</file>
+        <file>res/pe3.png</file>
+        <file>res/pe4.png</file>
+        <file>res/pe5.png</file>
+        <file>res/pe6.png</file>
+        <file>res/pe7.png</file>
     </qresource>
 </RCC>

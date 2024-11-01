@@ -11,15 +11,17 @@ PlayerPlane::PlayerPlane() {
 
     c = 0; hp = PLAYER_HP; kill_c = 0; score = 0;
     hit_c = HIT_INTERVAL;
+    hitSound = new QSoundEffect;
+    hitSound->setSource(QUrl::fromLocalFile(SOUND_HIT));
 }
 
 void PlayerPlane::shoot() {
     c++;
-    if(c < BULLET_INTERVAL) return;
+    if(c < PLAYER_BULLET_INTERVAL) return;
 
     c = 0;
 
-    for(int i=0; i<BULLET_NUMBER; i++) {
+    for(int i=0; i<PLAYER_BULLET_NUMBER; i++) {
         if(bullets[i].free) {
             bullets[i].free = false;
             bullets[i].posX = posX - 9;
@@ -34,3 +36,10 @@ void PlayerPlane::setPos(int x, int y) {
     m_Rect.moveTo(posX, posY);
 }
 
+void PlayerPlane::getHit() {
+    hp--;
+    hitSound->play();
+    explosion.free = false;
+    explosion.posX = posX;
+    explosion.posY = posY;
+}

@@ -44,7 +44,6 @@ public:
 
     QSoundEffect* bombSound;
     QSoundEffect* bgSound;
-    QSoundEffect* hitSound;
 
     QRect t_rect;
 

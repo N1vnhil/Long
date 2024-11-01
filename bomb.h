@@ -15,4 +15,13 @@ public:
     int idx;
 };
 
+class PlayerExplosion {
+public:
+    PlayerExplosion();
+    void updateInfo();
+    QVector<QPixmap> pics;
+    int posX, posY;
+    int c, idx; bool free;
+};
+
 #endif // BOMB_H

@@ -4,6 +4,7 @@
 #include <QPIXmap>
 #include <QRect>
 #include "config.h"
+#include "bullet.h"
 
 class EnemyPlane {
 public:
@@ -13,12 +14,17 @@ public:
     QPixmap enemy;
     int posX, posY;
 
-    QRect m_Rect;
+
 
     bool free;
-    int speed;
+    int speed, hp, c;
 
-    int hp; int dx;
+    QRect m_Rect;
+    EnemyBullet bullets[ENEMY_BULLET_NUMBER];
+    EnemyBullet bulletLeft[ENEMY_BULLET_NUMBER];
+    EnemyBullet bulletRight[ENEMY_BULLET_NUMBER];
+
+    void shoot();
 };
 
 #endif // ENEMYPLANE_H

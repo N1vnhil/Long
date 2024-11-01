@@ -5,6 +5,8 @@
 #include <QPixmap>
 #include "bullet.h"
 #include "config.h"
+#include <QSoundEffect>
+#include "bomb.h"
 
 class PlayerPlane {
 public:
@@ -16,10 +18,17 @@ public:
     QRect m_Rect;
     QPixmap plane;
 
-    Bullet bullets[BULLET_NUMBER];
+
+    PlayerBullet bullets[PLAYER_BULLET_NUMBER];
     int c;
 
     int hp, kill_c, score, hit_c;
+
+    void getHit();
+    QSoundEffect* hitSound;
+
+    PlayerExplosion explosion;
+
 };
 
 #endif // PLAYERPLANE_H
