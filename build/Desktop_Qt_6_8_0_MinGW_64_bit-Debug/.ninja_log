@@ -1,0 +1,23 @@
+# ninja log v6
+692	3353	7521364787844159	CMakeFiles/PlaneWar.dir/widget.cpp.obj	43a71ed31760bba5
+8	669	7521364786583853	D:/projects/qt_demo/PlaneWar/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/PlaneWar_autogen/mocs_compilation.cpp	787f3666bf700b8b
+8	669	7521364786583853	PlaneWar_autogen/timestamp	787f3666bf700b8b
+8	669	7521364786583853	PlaneWar_autogen/mocs_compilation.cpp	787f3666bf700b8b
+682	3065	7521364787754158	CMakeFiles/PlaneWar.dir/main.cpp.obj	a8b24225c84b325
+711	2681	7521364788044137	CMakeFiles/PlaneWar.dir/playerPlane.cpp.obj	8f20d1f359a64ab3
+3353	4254	7521364814459123	PlaneWar.exe	1c6808366571413
+8	669	7521364786583853	D:/projects/qt_demo/PlaneWar/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/PlaneWar_autogen/timestamp	787f3666bf700b8b
+670	3084	7521364787629045	CMakeFiles/PlaneWar.dir/PlaneWar_autogen/mocs_compilation.cpp.obj	b379e0312d5b0ba5
+2	752	7521371959930046	build.ninja	7854a73bf34d4cbf
+636	3638	7521332440047879	D:/projects/qt_demo/PlaneWar/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/PlaneWar_autogen/EWIEGA46WW/qrc_res.cpp	f704906f75c0c3c8
+636	3638	7521332440047879	PlaneWar_autogen/EWIEGA46WW/qrc_res.cpp	f704906f75c0c3c8
+3711	117889	7521332440923405	CMakeFiles/PlaneWar.dir/PlaneWar_autogen/EWIEGA46WW/qrc_res.cpp.obj	799360bfa8a7856a
+701	2676	7521364787934140	CMakeFiles/PlaneWar.dir/map.cpp.obj	a26a3494c24185ad
+778	2413	7520872911001745	CMakeFiles/PlaneWar.dir/plane.cpp.obj	7c535a17237b260e
+724	2688	7521364788169826	CMakeFiles/PlaneWar.dir/bullet.cpp.obj	8b4447a21a272076
+735	2733	7521364788279813	CMakeFiles/PlaneWar.dir/enemyPlane.cpp.obj	4a1432eb4f8bb85f
+747	2774	7521364788399840	CMakeFiles/PlaneWar.dir/bomb.cpp.obj	85ce3d8a6ec2d45a
+81	404	7521383763127795	PlaneWar_autogen/timestamp	787f3666bf700b8b
+81	404	7521383763127795	PlaneWar_autogen/mocs_compilation.cpp	787f3666bf700b8b
+81	404	7521383763127795	D:/projects/qt_demo/PlaneWar/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/PlaneWar_autogen/timestamp	787f3666bf700b8b
+81	404	7521383763127795	D:/projects/qt_demo/PlaneWar/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/PlaneWar_autogen/mocs_compilation.cpp	787f3666bf700b8b

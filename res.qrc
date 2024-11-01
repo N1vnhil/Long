@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/photo.jpg</file>
+        <file>res/photo_32x32.ico</file>
+        <file>res/map.png</file>
+        <file>res/nailong.png</file>
+        <file>res/bullet.png</file>
+        <file>res/enemy.png</file>
+        <file>res/b1.png</file>
+        <file>res/b2.png</file>
+        <file>res/b3.png</file>
+        <file>res/b4.png</file>
+        <file>res/b5.png</file>
+        <file>res/b6.png</file>
+        <file>res/explosion.wav</file>
+        <file>res/bg.wav</file>
+        <file>res/heart.png</file>
+        <file>res/hit.wav</file>
+    </qresource>
+</RCC>
