@@ -9,6 +9,7 @@
 #include "bomb.h"
 #include <QSoundEffect>
 #include <QMediaPlayer>
+#include "bossPlane.h"
 
 class Widget : public QWidget
 {
@@ -16,6 +17,8 @@ class Widget : public QWidget
     QTimer timer;
     Map m_map;
     PlayerPlane m_plane;
+    BossPlane boss1;
+    int survive_label;
 
 public:
     Widget(QWidget *parent = nullptr);
@@ -36,6 +39,8 @@ public:
 
     void endEvent();
 
+    void bossToScene();
+
     EnemyPlane enemies[ENEMY_NUMBER];
 
     Bomb bombs[BOMB_NUMBER];
@@ -44,9 +49,16 @@ public:
 
     QSoundEffect* bombSound;
     QSoundEffect* bgSound;
+    QSoundEffect* bg2Sound;
+    QSoundEffect* bulletSound;
+    QSoundEffect* winSound;
 
     QRect t_rect;
 
     void kill(EnemyPlane* enemy);
+
+    void kill(BossPlane* boss);
+
+    bool flag;
 };
 #endif // WIDGET_H

@@ -3,6 +3,7 @@
 
 #include <QRect>
 #include <QPixmap>
+#include "bomb.h"
 
 class Bullet {
 public:
@@ -28,6 +29,27 @@ class PlayerBullet: public Bullet {
 public:
     PlayerBullet();
     void updatePosition();
+};
+
+class BossBullet1: public Bullet {
+public:
+    BossBullet1();
+    void updatePosition();
+};
+
+class BossBullet2: public Bullet {
+public:
+    BossBullet2();
+    void updatePosition();
+};
+
+class BossMine1: public Bullet {
+public:
+    int time_c;
+    BossMine1();
+    void updatePosition();
+    void explode();
+    Boss1MineExplosion mineExplosion;
 };
 
 #endif // BULLET_H

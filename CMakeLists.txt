@@ -36,6 +36,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         enemyPlane.cpp
         bomb.h
         bomb.cpp
+        bossPlane.h
+        bossPlane.cpp
 
 
 

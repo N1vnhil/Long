@@ -13,9 +13,6 @@ public:
 
     QPixmap enemy;
     int posX, posY;
-
-
-
     bool free;
     int speed, hp, c;
 

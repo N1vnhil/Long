@@ -49,3 +49,24 @@ void PlayerExplosion::updateInfo() {
         idx = 0; free = true;
     }
 }
+
+Boss1MineExplosion::Boss1MineExplosion() {
+    posX = 0; posY = 0;
+    c = 0; idx = 0;
+    free = true;
+
+    for(int i=1; i<=BOSS_MINE_EXPLOSION_MAX; i++) {
+        QString path = QString(BOSS1_MINE_PATH).arg(i);
+        pics.push_back(QPixmap(path));
+    }
+}
+
+void Boss1MineExplosion::updateInfo() {
+    c++;
+    if(c < BOSS_MINE_EXPLOSION_INTERVAL) return;
+
+    c = 0; idx++;
+    if(idx > BOSS_MINE_EXPLOSION_MAX - 1) {
+        idx = 0; free = true;
+    }
+}

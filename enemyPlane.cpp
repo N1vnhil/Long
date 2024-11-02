@@ -14,7 +14,7 @@ EnemyPlane::EnemyPlane() {
 }
 
 void EnemyPlane::updatePosition() {
-    if(free) return;
+    if(free) {return;}
 
     posY += speed;
 

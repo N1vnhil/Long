@@ -24,4 +24,13 @@ public:
     int c, idx; bool free;
 };
 
+class Boss1MineExplosion {
+public:
+    Boss1MineExplosion();
+    int posX, posY;
+    QVector<QPixmap> pics;
+    int c, idx; bool free;
+    void updateInfo();
+};
+
 #endif // BOMB_H

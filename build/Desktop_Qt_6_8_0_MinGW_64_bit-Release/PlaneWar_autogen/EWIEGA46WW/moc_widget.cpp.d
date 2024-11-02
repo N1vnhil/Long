@@ -1,6 +1,7 @@
 D:/projects/qt_demo/PlaneWar/build/Desktop_Qt_6_8_0_MinGW_64_bit-Release/PlaneWar_autogen/EWIEGA46WW/moc_widget.cpp: D:/projects/qt_demo/PlaneWar/widget.h \
   D:/projects/qt_demo/PlaneWar/build/Desktop_Qt_6_8_0_MinGW_64_bit-Release/PlaneWar_autogen/moc_predefs.h \
   D:/projects/qt_demo/PlaneWar/bomb.h \
+  D:/projects/qt_demo/PlaneWar/bossPlane.h \
   D:/projects/qt_demo/PlaneWar/bullet.h \
   D:/projects/qt_demo/PlaneWar/config.h \
   D:/projects/qt_demo/PlaneWar/enemyPlane.h \

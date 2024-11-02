@@ -37,16 +37,43 @@
 #define BOMB_INTERVAL 15
 
 #define SOUND_BOMB ":/res/explosion.wav"
-#define SOUND_BG ":/res/bg.wav"
+#define SOUND_BG1 ":/res/bg1.wav"
+#define SOUND_BG2 ":/res/bg2.wav"
+#define SOUND_WIN ":/res/win.wav"
 #define SOUND_HIT ":/res/hit.wav"
+#define SOUND_BULLET ":/res/playerBullet.wav"
 
-#define PLAYER_HP 5
+#define PLAYER_HP 10
+
 
 #define HEART_PATH ":/res/heart.png"
 
 #define HIT_INTERVAL 5
 
+#define BOSS1_PATH ":/res/boss1.png"
+#define BOSS1_HP 500
 
+#define BOSS_COLLIDE_INTERVAL 50
 
+#define BOSS_BULLET1_PATH ":/res/bb1.png"
+#define BOSS_BULLET1_SPEED 5
+#define BOSS_BULLET1_NUMBER 20
+#define BOSS_BULLET1_INTERVAL 100
+
+#define BOSS_BULLET2_PATH ":/res/bb2.png"
+#define BOSS_BULLET2_SPEED 10
+#define BOSS_BULLET2_NUMBER 50
+#define BOSS_BULLET2_INTERVAL 40
+
+#define BOSS1_TIME 30000
+
+#define BOSS1_MINE_PATH ":/res/bm%1.png"
+#define BOSS1_MINE_INTERVAL 100
+#define BOSS1_MINE_NUMBER 50
+#define BOSS1_MINE_TIME 250
+
+#define BOSS_MINE_EXPLOSION_MAX 7
+#define BOSS_MINE_EXPLOSION_NUMBER 20
+#define BOSS_MINE_EXPLOSION_INTERVAL 15
 
 #endif // CONFIG_H

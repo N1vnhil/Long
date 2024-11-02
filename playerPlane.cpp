@@ -5,9 +5,9 @@ PlayerPlane::PlayerPlane() {
     plane.load(PLANE_PATH);
     posX = (GAME_WIDTH - plane.width()) / 2; posY = GAME_HEIGHT - plane.height();
 
-    m_Rect.setWidth(plane.width() * 0.9);
-    m_Rect.setHeight(plane.height() * 0.9);
-    m_Rect.moveTo(posX, posY);
+    m_Rect.setWidth(plane.width() * 0.2);
+    m_Rect.setHeight(plane.height() * 0.2);
+    m_Rect.moveTo(posX + plane.width() * 0.4, posY + plane.height() * 0.4);
 
     c = 0; hp = PLAYER_HP; kill_c = 0; score = 0;
     hit_c = HIT_INTERVAL;
@@ -33,7 +33,7 @@ void PlayerPlane::shoot() {
 
 void PlayerPlane::setPos(int x, int y) {
     posX = x; posY = y;
-    m_Rect.moveTo(posX, posY);
+    m_Rect.moveTo(posX + plane.width() * 0.4, posY + plane.height() * 0.4);
 }
 
 void PlayerPlane::getHit() {
